@@ -1,5 +1,5 @@
 # JsonCompare
- Test Task
+ Test Task.
 
 ### Сlone the repository
 ```
@@ -16,4 +16,5 @@ cd JsonCompare\JsonCompare\JsonCompareUI\bin\Release
 TestTask <...path\file1.json> <...path\file2.json>
 ```
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://vimeo.com/660508206)
+
+![2021-12-28_00-14-47](https://user-images.githubusercontent.com/50809173/147508500-63d55bc7-a6ff-4e78-91ce-a13262aac144.gif)
