@@ -15,3 +15,5 @@ cd JsonCompare\JsonCompare\JsonCompareUI\bin\Release
 ```
 TestTask <...path\file1.json> <...path\file2.json>
 ```
+
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://vimeo.com/660508206)
