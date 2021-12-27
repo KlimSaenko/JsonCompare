@@ -16,7 +16,8 @@ namespace TestTask
             Application.Run(new MainForm(args));
         }
 
-        private static bool ValidateArguments(string[] args)
+        /// <returns>Are the arguments validated</returns>
+        internal static bool ValidateArguments(string[] args)
         {
             if (args.Length < 2)
             {

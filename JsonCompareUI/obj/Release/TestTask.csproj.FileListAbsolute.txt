@@ -19,7 +19,6 @@ D:\Programs\JsonCompare\JsonCompare\JsonCompareUI\bin\Release\System.Text.Encodi
 D:\Programs\JsonCompare\JsonCompare\JsonCompareUI\bin\Release\System.Text.Json.xml
 D:\Programs\JsonCompare\JsonCompare\JsonCompareUI\bin\Release\System.Threading.Tasks.Extensions.xml
 D:\Programs\JsonCompare\JsonCompare\JsonCompareUI\bin\Release\System.ValueTuple.xml
-D:\Programs\JsonCompare\JsonCompare\JsonCompareUI\obj\Release\TestTask.csproj.AssemblyReference.cache
 D:\Programs\JsonCompare\JsonCompare\JsonCompareUI\obj\Release\TestTask.MainForm.resources
 D:\Programs\JsonCompare\JsonCompare\JsonCompareUI\obj\Release\TestTask.Properties.Resources.resources
 D:\Programs\JsonCompare\JsonCompare\JsonCompareUI\obj\Release\TestTask.csproj.GenerateResource.cache
@@ -27,3 +26,4 @@ D:\Programs\JsonCompare\JsonCompare\JsonCompareUI\obj\Release\TestTask.csproj.Co
 D:\Programs\JsonCompare\JsonCompare\JsonCompareUI\obj\Release\TestTask.csproj.CopyComplete
 D:\Programs\JsonCompare\JsonCompare\JsonCompareUI\obj\Release\TestTask.exe
 D:\Programs\JsonCompare\JsonCompare\JsonCompareUI\obj\Release\TestTask.pdb
+D:\Programs\JsonCompare\JsonCompare\JsonCompareUI\obj\Release\TestTask.csproj.AssemblyReference.cache

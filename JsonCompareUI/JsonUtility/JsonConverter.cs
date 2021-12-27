@@ -7,6 +7,10 @@ namespace TestTask.JsonUtility
 {
     internal sealed class JsonConverter
     {
+        /// <summary>
+        /// Converts JSON format files to JSON fields in type of IJsonField, that provides information about JSON properties 
+        /// </summary>
+        /// <returns>Array of JSON fields in type of IJsonField for current JSON files</returns>
         internal static async Task<IJsonField[][]> GetJsonAsFields(string[] paths)
         {
             var jsonFields = new IJsonField[paths.Length][];
@@ -30,7 +34,7 @@ namespace TestTask.JsonUtility
             }
         }
 
-        internal static IJsonField[] WriteJsonToFields(IEnumerable<JsonProperty> jsonCollection)
+        private static IJsonField[] WriteJsonToFields(IEnumerable<JsonProperty> jsonCollection)
         {
             var array = new List<JsonProperty>(jsonCollection);
             var jsonFields = new IJsonField[array.Count];

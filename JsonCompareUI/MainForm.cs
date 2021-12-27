@@ -16,12 +16,14 @@ namespace TestTask
             StartLogic(args);
         }
 
-        //private readonly string[] Args = { @"C:\Users\User\source\repos\Test\Test\JsonModels\TextFile1.json", @"C:\Users\User\source\repos\Test\Test\JsonModels\TextFile2.json" };
-        //private readonly string[] Args = { @"C:\Users\User\compare-files\__fixtures__\file1.json", @"C:\Users\User\compare-files\__fixtures__\file2.json" };
+        /// <summary>
+        /// Asynchronous method that runs main logic
+        /// </summary>
+        /// <param name="args">Arguments of JSON files paths</param>
         private async void StartLogic(string[] args)
         {
             var jsonTextLines = await JsonConverter.GetJsonAsFields(args);
-
+            
             JsonComparer.CompareJson(jsonTextLines[0], jsonTextLines[1]);
 
             _mismatches = new int[args.Length];
@@ -30,11 +32,31 @@ namespace TestTask
             _mismatches[1] = ShowJsonComparison(jsonTextLines[1], secondTextBox);
 
             Console.WriteLine("Done!");
+
+            //Console.WriteLine("You can try another JSON files =>");
+
+            //string newInputLine;
+            //var newInputArgs = new string[0];
+            //while ((newInputLine = Console.ReadLine()) != null)
+            //{
+            //    newInputArgs = newInputLine.Split(' ');
+            //    if (Program.ValidateArguments(newInputArgs))
+            //    {
+            //        break;
+            //    }
+            //    else Console.WriteLine("You can try another JSON files =>");
+            //}
+
+            //StartLogic(newInputArgs);
         }
 
         private static int[] _mismatches;
         private string _tabs = string.Empty;
 
+        /// <summary>
+        /// Visualize JSON data to text box
+        /// </summary>
+        /// <returns>Count of mismatches for current JSON</returns>
         private int ShowJsonComparison(IJsonField[] jsonTextLines, RichTextBox textBox)
         {
             var mismatches = 0;
