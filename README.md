@@ -1,5 +1,6 @@
 # JsonCompare
  Test Task.
+ - Create application that will find the difference between two input JSON files.
 
 ### Сlone the repository
 ```
