@@ -13,5 +13,5 @@ cd JsonCompare\JsonCompare\JsonCompareUI\bin\Release
 
 ### Run TestTask.exe with the following arguments
 ```
-TestTask <pathtofile1> <pathtofile2>
+TestTask <...path\file1.json> <...path\file2.json>
 ```
