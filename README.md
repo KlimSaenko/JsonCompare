@@ -1,6 +1,5 @@
 # JsonCompare
- Test Task.
- - Create application that will find the difference between two input JSON files.
+ JSON comparison program using WinForms (desktop).
 
 ### Сlone the repository
 ```
